@@ -14,4 +14,8 @@ func main() {
 
 	println("Value is ", ptr)
 	println("Value is ", *ptr)
+
+	*ptr += 2
+	println("New value is ", myNumber)
+
 }
